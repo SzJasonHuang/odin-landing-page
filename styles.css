@@ -9,12 +9,26 @@ body,
 
 }
 
+.circle-img {
+    width: 200px;         
+    height: 200px;
+    object-fit: cover;   
+    border-radius: 60%;
+    display: block;
+    
+  }
+
 .header,
 .first,
 .images-second,
 .fourth,
 .links{
     display: flex;
+}
+
+.placeholder{
+    display: flex;
+    
 }
 
 .second-header{
@@ -123,8 +137,17 @@ color:#E5E7EB;
     background-color: #E5E7EB;
     justify-content: center;
 }
+.Header{
+    margin-top:14px; 
+    margin-bottom:1px;
+    font-size: 33px;
+    font-family: 'Times New Roman', serif;
+    font-weight:100;
+    color:black 
+}
+
 .quote{
-    margin-top:200px;
+    margin-top:12px;
     margin-bottom:auto;
     font-size: 36px;
     font-style:italic;
@@ -133,7 +156,8 @@ color:#E5E7EB;
 }
 
 .quoter{
-    flex-basis: 200px;
+    font-style:italic;
+    flex-basis: 20px;
 
 }
 .fourth{
